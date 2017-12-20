@@ -1,6 +1,6 @@
 package merchant
 
-import "github.com/evalphobia/go-paypal-classic/client"
+import "github.com/Dexus/go-paypal-classic/client"
 
 // SetExpressCheckout is struct for SetExpressCheckout API
 // see: https://developer.paypal.com/docs/classic/api/merchant/SetExpressCheckout_API_Operation_NVP/

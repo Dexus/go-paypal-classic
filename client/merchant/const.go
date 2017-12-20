@@ -1,6 +1,6 @@
 package merchant
 
-import "github.com/evalphobia/go-paypal-classic/client"
+import "github.com/Dexus/go-paypal-classic/client"
 
 const (
 	paymentActionSale    = "sale"

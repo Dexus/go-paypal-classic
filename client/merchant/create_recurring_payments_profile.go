@@ -3,7 +3,7 @@ package merchant
 import (
 	"time"
 
-	"github.com/evalphobia/go-paypal-classic/client"
+	"github.com/Dexus/go-paypal-classic/client"
 )
 
 // CreateRecurringPaymentsProfile is struct for CreateRecurringPaymentsProfile API

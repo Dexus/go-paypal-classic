@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/evalphobia/go-paypal-classic/client"
+	"github.com/Dexus/go-paypal-classic/client"
 )
 
 // TransactionSearch is struct for TransactionSearch API
@@ -120,7 +120,7 @@ func (r *TransactionSearchResponse) GetProfileCreatedDate() (time.Time, bool) {
 	if item.IsProfile() && item.IsCreated() {
 		return item.Timestamp, true
 	}
-        return time.Time{}, false
+	return time.Time{}, false
 }
 
 // GetCancelDate returns time of canceled.

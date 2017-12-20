@@ -1,8 +1,8 @@
 package merchant
 
 import (
-	"github.com/evalphobia/go-paypal-classic/client"
-	"github.com/evalphobia/go-paypal-classic/config"
+	"github.com/Dexus/go-paypal-classic/client"
+	"github.com/Dexus/go-paypal-classic/config"
 )
 
 // New creates client.Client with given config

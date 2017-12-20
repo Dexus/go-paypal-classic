@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/evalphobia/go-paypal-classic/client"
+	"github.com/Dexus/go-paypal-classic/client"
 )
 
 func testNewDefault() client.Client {

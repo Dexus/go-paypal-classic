@@ -1,6 +1,6 @@
 package merchant
 
-import "github.com/evalphobia/go-paypal-classic/client"
+import "github.com/Dexus/go-paypal-classic/client"
 
 // GetRecurringPaymentsProfileDetails is struct for GetRecurringPaymentsProfileDetails API
 // see: https://developer.paypal.com/docs/classic/api/merchant/GetRecurringPaymentsProfileDetails_API_Operation_NVP/

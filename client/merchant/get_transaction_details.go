@@ -1,6 +1,6 @@
 package merchant
 
-import "github.com/evalphobia/go-paypal-classic/client"
+import "github.com/Dexus/go-paypal-classic/client"
 
 // GetTransactionDetails is struct for GetTransactionDetails API
 // see: https://developer.paypal.com/docs/classic/api/merchant/GetTransactionDetails_API_Operation_NVP/

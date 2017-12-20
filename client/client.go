@@ -1,8 +1,8 @@
 package client
 
 import (
-	"github.com/evalphobia/go-paypal-classic/config"
-	"github.com/evalphobia/go-paypal-classic/request"
+	"github.com/Dexus/go-paypal-classic/config"
+	"github.com/Dexus/go-paypal-classic/request"
 )
 
 const (
