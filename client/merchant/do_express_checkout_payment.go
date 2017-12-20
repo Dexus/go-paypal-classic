@@ -8,9 +8,9 @@ type DoExpressCheckoutPayment struct {
 	client.BaseRequest `url:",squash"`
 
 	Token   string `url:"TOKEN"`
-	PayerID string `url:"PAYERID,omitempty"`
+	PayerID string `url:"PAYERID"`
 
-	NotifyURL string `url:"PAYMENTREQUEST_0_NOTIFYURL"`
+	NotifyURL string `url:"PAYMENTREQUEST_0_NOTIFYURL,omitempty"`
 
 	TotalAmount float64 `url:"PAYMENTREQUEST_0_AMT"`
 	ItemAmount  float64 `url:"PAYMENTREQUEST_0_ITEMAMT"`
