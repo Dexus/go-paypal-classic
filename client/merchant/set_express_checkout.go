@@ -11,6 +11,7 @@ type SetExpressCheckout struct {
 
 	ReturnURL   string  `url:"RETURNURL"`
 	CancelURL   string  `url:"CANCELURL"`
+	NotifyURL   string  `url:"PAYMENTREQUEST_0_NOTIFYURL,omitempty"`
 	TotalAmount float64 `url:"PAYMENTREQUEST_0_AMT"`
 	Currency    string  `url:"PAYMENTREQUEST_0_CURRENCYCODE,omitempty"`
 
